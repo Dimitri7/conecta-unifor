@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardPostagem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardBackgroundColor="@color/colorSurface"
+    app:cardCornerRadius="@dimen/card_radius"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvMeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dimitri • 02/03 • Dúvidas"
+            style="@style/Text.Caption" />
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Prova de Estrutura de Dados"
+            style="@style/Text.Section" />
+
+        <TextView
+            android:id="@+id/tvConteudo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:lineSpacingExtra="3dp"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:text="Alguém tem o resumo dos últimos slides?"
+            style="@style/Text.Body" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/colorDivider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvCurtidas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="👍  10 Curtidas"
+                style="@style/Text.Body" />
+
+            <TextView
+                android:id="@+id/tvComentarios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="💬  15 Comentários"
+                style="@style/Text.Body" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

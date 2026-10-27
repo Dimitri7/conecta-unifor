@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Conecta Unifor</string>
+    <string name="brand_first">Conecta</string>
+    <string name="brand_second">Unifor</string>
+
+    <!-- Bottom nav (Aluno) -->
+    <string name="nav_espacos">Espaços</string>
+    <string name="nav_aluguel">Aluguel</string>
+    <string name="nav_feed">Feed</string>
+    <string name="nav_perfil">Perfil</string>
+
+    <!-- Bottom nav (Admin) -->
+    <string name="nav_reports">Reports</string>
+    <string name="nav_moderacao">Moderação</string>
+
+    <!-- Login / Cadastro -->
+    <string name="acesso_sistema">Acesso ao Sistema</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="cadastrar">CADASTRAR</string>
+    <string name="aluno">Aluno</string>
+    <string name="administrador">Administrador</string>
+    <string name="esqueci_senha">Esqueci minha senha</string>
+    <string name="ainda_nao_conta">Ainda não tem conta? </string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="ja_possui_conta">Já possui conta? </string>
+    <string name="fazer_login">Fazer Login</string>
+    <string name="criar_nova_conta">Criar nova conta</string>
+    <string name="recuperar_senha">Recuperar Senha</string>
+    <string name="enviar_link">ENVIAR LINK</string>
+    <string name="voltar_login">Voltar para o Login</string>
+    <string name="instrucoes_enviadas">Instruções enviadas para o seu e-mail!</string>
+    <string name="cadastro_sucesso">Cadastro realizado com sucesso!</string>
+    <string name="cadastro_admin_titulo">Cadastro de Administrador</string>
+    <string name="login_campos_vazios">Preencha e-mail e senha.</string>
+    <string name="login_erro_credenciais">E-mail ou senha incorretos.</string>
+    <string name="login_erro_conexao">Erro ao conectar. Tente novamente.</string>
+    <string name="sair">Sair</string>
+    <string name="confirmar_logout">Deseja sair da sua conta?</string>
+
+    <!-- Espaços -->
+    <string name="ola_aluno">Olá, Aluno!</string>
+    <string name="escolha_ambiente">Escolha seu ambiente de estudo:</string>
+    <string name="capsulas">Cápsulas</string>
+    <string name="salas">Salas</string>
+    <string name="status_label">Status: </string>
+    <string name="status_livre">LIVRE</string>
+    <string name="status_ocupada">OCUPADA</string>
+    <string name="status_indisponivel">INDISPONÍVEL</string>
+    <string name="reportar_problema">REPORTAR PROBLEMA</string>
+    <string name="enviar_relato">ENVIAR RELATO</string>
+    <string name="problema_registrado">Problema registrado com sucesso! Obrigado.</string>
+    <string name="filtros">Filtros</string>
+
+    <!-- Aluguel / Catálogo -->
+    <string name="catalogo_livros">Catálogo de Livros</string>
+    <string name="solicitar_aluguel">SOLICITAR ALUGUEL</string>
+    <string name="aluguel_solicitado">Aluguel solicitado! Aguarde aprovação.</string>
+    <string name="filtrar_busca">Filtrar Busca</string>
+    <string name="mostrar_apenas_disponiveis">Mostrar apenas disponíveis</string>
+    <string name="aplicar">APLICAR</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="excluir">Excluir</string>
+    <string name="ok">OK</string>
+
+    <!-- Feed -->
+    <string name="comunidade_unifor">Comunidade UNIFOR</string>
+    <string name="criar_postagem">+ CRIAR POSTAGEM</string>
+    <string name="curtidas">Curtidas</string>
+    <string name="comentarios">Comentários</string>
+    <string name="enviar_comentario">Enviar</string>
+    <string name="favoritar">Favoritar</string>
+    <string name="publicar">PUBLICAR</string>
+    <string name="salvar_alteracoes">SALVAR ALTERAÇÕES</string>
+    <string name="excluir_postagem">EXCLUIR POSTAGEM</string>
+    <string name="confirmar_excluir_post">Tem certeza que deseja excluir esta postagem?</string>
+    <string name="hint_titulo_post">Título da postagem</string>
+    <string name="hint_categoria_post">Categoria (Ex: Dúvidas)</string>
+    <string name="hint_conteudo_post">Escreva o conteúdo…</string>
+    <string name="hint_comentario">Escreva um comentário…</string>
+    <string name="denunciar">Denunciar</string>
+    <string name="escolher_motivo_denuncia">Por que está denunciando?</string>
+    <string name="enviar">Enviar</string>
+    <string name="denuncia_enviada">Denúncia enviada — obrigado por reportar.</string>
+
+    <!-- Perfil -->
+    <string name="aba_posts">POSTS</string>
+    <string name="aba_salvos">SALVOS</string>
+    <string name="aba_desejados">DESEJADOS</string>
+    <string name="aba_alugados">ALUGADOS</string>
+    <string name="curso_padrao">Ciência da Computação</string>
+
+    <!-- Admin -->
+    <string name="painel_admin">Painel do Administrador</string>
+    <string name="problemas_reportados">Problemas Reportados</string>
+    <string name="marcar_resolvido">MARCAR COMO RESOLVIDO</string>
+    <string name="interditar_espaco">INTERDITAR ESPAÇO</string>
+    <string name="confirmar_interditar">Mudar status deste espaço para INDISPONÍVEL?</string>
+    <string name="interditar">Interditar</string>
+    <string name="denuncias_comunidade">Denúncias da Comunidade</string>
+    <string name="gerenciar_categorias">GERENCIAR CATEGORIAS</string>
+    <string name="ignorar">IGNORAR</string>
+    <string name="remover_post">REMOVER POST</string>
+    <string name="confirmar_remover_post">Remover esta postagem definitivamente?</string>
+    <string name="categorias_feed">Categorias do Feed</string>
+    <string name="nova_categoria">+ NOVA CATEGORIA</string>
+    <string name="cadastrar_simples">CADASTRAR</string>
+    <string name="excluir_categoria">EXCLUIR CATEGORIA</string>
+    <string name="confirmar_excluir_categoria">Deseja excluir esta categoria?</string>
+    <string name="confirmar_excluir_capsula">Tem certeza que deseja excluir esta cápsula do sistema?</string>
+    <string name="confirmar_excluir_sala">Tem certeza que deseja excluir esta sala do sistema?</string>
+    <string name="cadastrar_nova_capsula">Cadastrar Nova Cápsula</string>
+    <string name="cadastrar_nova_sala">Cadastrar Nova Sala</string>
+    <string name="editar_capsula">Editar Cápsula</string>
+    <string name="editar_sala">Editar Sala</string>
+    <string name="nova_capsula_btn">+ NOVA CÁPSULA</string>
+    <string name="nova_sala_btn">+ NOVA SALA</string>
+    <string name="excluir_capsula">EXCLUIR CÁPSULA</string>
+    <string name="excluir_sala">EXCLUIR SALA</string>
+    <string name="gestao_acervo">Gestão de Acervo</string>
+    <string name="novo_livro">+ NOVO LIVRO</string>
+    <string name="gestao_alugueis">Gestão de Aluguéis</string>
+    <string name="aprovar_retirada">Aprovar Retirada / Devolução</string>
+</resources>

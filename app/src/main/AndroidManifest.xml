@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ConectaUnifor">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Autenticação -->
+        <activity android:name=".LoginActivity" android:exported="false" />
+        <activity android:name=".CadastroActivity" android:exported="false" />
+        <activity android:name=".CadastroAdminActivity" android:exported="false" />
+        <activity android:name=".RecuperarSenhaActivity" android:exported="false" />
+
+        <!-- Aluno - abas principais (singleTop para não empilhar) -->
+        <activity
+            android:name=".AlunoEspacosActivity"
+            android:exported="false"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".AlunoAluguelActivity"
+            android:exported="false"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".AlunoFeedActivity"
+            android:exported="false"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".AlunoPerfilActivity"
+            android:exported="false"
+            android:launchMode="singleTop" />
+
+        <!-- Aluno - telas secundárias -->
+        <activity android:name=".AlunoDetalheCapsulaActivity" android:exported="false" />
+        <activity android:name=".AlunoRelatarProblemaActivity" android:exported="false" />
+        <activity android:name=".AlunoDetalheLivroActivity" android:exported="false" />
+        <activity android:name=".AlunoDetalhePostagemActivity" android:exported="false" />
+        <activity android:name=".AlunoCriarPostagemActivity" android:exported="false" />
+        <activity android:name=".AlunoEditarPostagemActivity" android:exported="false" />
+
+        <!-- Admin - abas principais (singleTop para não empilhar) -->
+        <activity
+            android:name=".AdmEspacosActivity"
+            android:exported="false"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".AdmReportsActivity"
+            android:exported="false"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".AdmModeracaoActivity"
+            android:exported="false"
+            android:launchMode="singleTop" />
+
+        <!-- Admin - telas secundárias -->
+        <activity android:name=".AdmFormEspacoActivity" android:exported="false" />
+        <activity android:name=".AdmCategoriasActivity" android:exported="false" />
+        <activity android:name=".AdmFormCategoriaActivity" android:exported="false" />
+        <activity android:name=".AdmAcervoActivity" android:exported="false" />
+        <activity android:name=".AdmFormLivroActivity" android:exported="false" />
+        <activity android:name=".AdmAlugueisActivity" android:exported="false" />
+
+    </application>
+
+</manifest>

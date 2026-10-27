@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:id="@+id/layoutLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/brand_first"
+            android:textColor="#BDC3C7"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/brand_second"
+            android:textColor="@color/colorTextOnDark"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/bg_card_top_rounded"
+        android:elevation="16dp"
+        android:paddingHorizontal="24dp"
+        android:paddingTop="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutLogo">
+
+        <TextView
+            android:id="@+id/tvHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acesso_sistema"
+            style="@style/Text.Title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:id="@+id/toggleGroup"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            app:checkedButton="@id/btnAluno"
+            app:singleSelection="true"
+            app:selectionRequired="true"
+            app:layout_constraintTop_toBottomOf="@+id/tvHeader">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAluno"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/aluno"
+                android:textSize="13sp"
+                app:cornerRadius="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAdmin"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/administrador"
+                android:textSize="13sp"
+                app:cornerRadius="8dp" />
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutId"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Matrícula ou E-mail"
+            app:boxCornerRadiusBottomEnd="12dp"
+            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusTopEnd="12dp"
+            app:boxCornerRadiusTopStart="12dp"
+            app:startIconDrawable="@android:drawable/ic_menu_edit"
+            app:layout_constraintTop_toBottomOf="@+id/toggleGroup">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="15sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutPass"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="Senha"
+            app:boxCornerRadiusBottomEnd="12dp"
+            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusTopEnd="12dp"
+            app:boxCornerRadiusTopStart="12dp"
+            app:endIconMode="password_toggle"
+            app:startIconDrawable="@android:drawable/ic_lock_idle_lock"
+            app:layout_constraintTop_toBottomOf="@+id/layoutId">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:textSize="15sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tvForgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="6dp"
+            android:text="@string/esqueci_senha"
+            android:textColor="@color/colorTextLink"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layoutPass" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/entrar"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/colorPrimary"
+            app:cornerRadius="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/tvForgot" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnLogin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ainda_nao_conta"
+                android:textColor="@color/colorTextMuted"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="@string/cadastre_se"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

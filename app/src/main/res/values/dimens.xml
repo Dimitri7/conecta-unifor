@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Padding de tela -->
+    <dimen name="screen_padding">20dp</dimen>
+    <dimen name="screen_padding_horizontal">20dp</dimen>
+    <dimen name="header_top_margin">28dp</dimen>
+
+    <!-- Espaçamentos -->
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">12dp</dimen>
+    <dimen name="spacing_lg">16dp</dimen>
+    <dimen name="spacing_xl">24dp</dimen>
+    <dimen name="spacing_xxl">32dp</dimen>
+
+    <!-- Cards -->
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="card_padding_large">20dp</dimen>
+    <dimen name="card_radius">14dp</dimen>
+    <dimen name="card_radius_large">20dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+
+    <!-- Botões -->
+    <dimen name="button_height">52dp</dimen>
+    <dimen name="button_height_small">40dp</dimen>
+    <dimen name="button_radius">12dp</dimen>
+    <dimen name="filter_button_height">36dp</dimen>
+
+    <!-- Inputs -->
+    <dimen name="input_height">52dp</dimen>
+    <dimen name="input_radius">12dp</dimen>
+
+    <!-- Bottom nav -->
+    <dimen name="bottom_nav_height">64dp</dimen>
+    <dimen name="bottom_nav_elevation">8dp</dimen>
+
+    <!-- Toggle -->
+    <dimen name="toggle_height">42dp</dimen>
+    <dimen name="toggle_radius">10dp</dimen>
+
+    <!-- Header card -->
+    <dimen name="header_card_height">120dp</dimen>
+    <dimen name="header_card_radius">20dp</dimen>
+
+    <!-- Avatar -->
+    <dimen name="avatar_size">56dp</dimen>
+    <dimen name="avatar_radius">10dp</dimen>
+
+    <!-- Texto -->
+    <dimen name="text_screen_title">22sp</dimen>
+    <dimen name="text_title">20sp</dimen>
+    <dimen name="text_section">16sp</dimen>
+    <dimen name="text_body">14sp</dimen>
+    <dimen name="text_book_title">16sp</dimen>
+    <dimen name="text_caption">12sp</dimen>
+    <dimen name="text_nav">13sp</dimen>
+</resources>

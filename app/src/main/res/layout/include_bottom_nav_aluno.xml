@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomNav"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_nav_height"
+    android:background="@drawable/bg_bottom_nav"
+    android:elevation="@dimen/bottom_nav_elevation"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/navEspacos"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/nav_espacos"
+        android:padding="8dp"
+        style="@style/Text.NavItem" />
+
+    <TextView
+        android:id="@+id/navAluguel"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/nav_aluguel"
+        android:padding="8dp"
+        style="@style/Text.NavItem" />
+
+    <TextView
+        android:id="@+id/navFeed"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/nav_feed"
+        android:padding="8dp"
+        style="@style/Text.NavItem" />
+
+    <TextView
+        android:id="@+id/navPerfil"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/nav_perfil"
+        android:padding="8dp"
+        style="@style/Text.NavItem" />
+
+</LinearLayout>

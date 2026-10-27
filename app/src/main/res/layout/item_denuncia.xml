@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardBackgroundColor="@color/colorSurface"
+    app:cardCornerRadius="@dimen/card_radius"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvMotivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Motivo: Conteúdo Ofensivo"
+            android:textColor="@color/colorDanger"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvPostOriginal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:lineSpacingExtra="3dp"
+            android:text="Post original: &quot;...&quot;"
+            style="@style/Text.Body" />
+
+        <TextView
+            android:id="@+id/tvAutor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="- Autor: João"
+            style="@style/Text.Caption" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnIgnorar"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/button_height"
+                android:layout_weight="1"
+                android:layout_marginEnd="6dp"
+                android:text="@string/ignorar"
+                android:textColor="@color/colorPrimary"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:backgroundTint="@color/colorSurfaceMuted"
+                app:cornerRadius="@dimen/button_radius" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnRemover"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/button_height"
+                android:layout_weight="1"
+                android:layout_marginStart="6dp"
+                android:text="@string/remover_post"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:backgroundTint="@color/colorDanger"
+                app:cornerRadius="@dimen/button_radius" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

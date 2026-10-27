@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Marca -->
+    <color name="colorPrimary">#03083D</color>
+    <color name="colorPrimaryDark">#010528</color>
+    <color name="colorPrimaryLight">#1A2057</color>
+    <color name="colorAccent">#6B6FE0</color>
+
+    <!-- Superfícies -->
+    <color name="colorBackground">#EEF4FC</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorSurfaceMuted">#F4F6FA</color>
+    <color name="colorInputFill">#F1F4F9</color>
+
+    <!-- Texto -->
+    <color name="colorTextPrimary">#03083D</color>
+    <color name="colorTextSecondary">#4B5563</color>
+    <color name="colorTextMuted">#7A869A</color>
+    <color name="colorTextOnDark">#FFFFFF</color>
+    <color name="colorTextLink">#3498DB</color>
+
+    <!-- Status / feedback -->
+    <color name="colorSuccess">#00A83B</color>
+    <color name="colorDanger">#D93025</color>
+    <color name="colorWarning">#F0A000</color>
+
+    <!-- Linhas / contornos -->
+    <color name="colorDivider">#E3E8F0</color>
+    <color name="colorOutline">#CCD6E3</color>
+    <color name="colorOutlineLight">#D0D7FF</color>
+
+    <!-- Avatar placeholder -->
+    <color name="colorAvatarPlaceholder">#CFE0FF</color>
+
+    <!-- Bottom nav -->
+    <color name="colorBottomNav">#FFFFFF</color>
+    <color name="colorBottomNavLine">#E3E8F0</color>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardBackgroundColor="@color/colorSurface"
+    app:cardCornerRadius="@dimen/card_radius"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvMeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Local: Cápsula 01  •  Relatado por: João"
+            style="@style/Text.Caption" />
+
+        <TextView
+            android:id="@+id/tvDescricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:lineSpacingExtra="3dp"
+            android:text="Descrição do problema"
+            style="@style/Text.Body" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnResolver"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginTop="14dp"
+            android:text="@string/marcar_resolvido"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/colorPrimary"
+            app:cornerRadius="@dimen/button_radius" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnInterditar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginTop="8dp"
+            android:text="@string/interditar_espaco"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/colorDanger"
+            app:cornerRadius="@dimen/button_radius" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

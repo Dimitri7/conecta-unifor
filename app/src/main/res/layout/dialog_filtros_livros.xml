@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filtrar_busca"
+        style="@style/Text.Title"
+        android:layout_marginBottom="14dp" />
+
+    <CheckBox
+        android:id="@+id/chkApenasDisponiveis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/colorPrimary"
+        android:text="@string/mostrar_apenas_disponiveis"
+        android:textColor="@color/colorTextSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Categorias"
+        style="@style/Text.Section" />
+
+    <CheckBox
+        android:id="@+id/chkTecnologia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/colorPrimary"
+        android:text="Tecnologia"
+        android:textColor="@color/colorTextSecondary"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/chkSaude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/colorPrimary"
+        android:text="Saúde"
+        android:textColor="@color/colorTextSecondary"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/chkGestao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/colorPrimary"
+        android:text="Gestão"
+        android:textColor="@color/colorTextSecondary"
+        android:textSize="14sp" />
+
+</LinearLayout>
